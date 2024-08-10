@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 { 
+	color:  black;
+	margin-bottom: -5px;
+    font-size: 40px;
+    padding-top: 55px;
+    letter-spacing: 8px;
+    text-decoration: underline; 
+} 
+p { 
+	margin-bottom: -10px;
+}
+#ins { 
+	font-family: Verdana,Geneva, 
+	Tahoma, sans-serif; 
+	color: black; 
+    margin-top: 50px;
+    font-size: 25px;
+    letter-spacing: 5px;
+} 
+/* Main Container */
+#main { 
+	text-align: center; 
+    background-color: lightcyan;
+    height: 105vh;
+    background-image: url(img/istockphoto-175400834-612x612.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+
+.ui { 
+	display: flex; 
+	flex-direction: column; 
+	align-items: center; 
+} 
+.row { 
+	display: flex; 
+} 
+.cell { 
+	border: none; 
+	width: 80px; 
+	height: 80px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	font-size: 24px; 
+	text-align: center; 
+	cursor: pointer; 
+} 
+.cell:active { 
+	outline: none; 
+} 
+/* 3*3 Grid */
+#b1{ 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b2 { 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b3 { 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b4 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+	
+#b5 { 
+	border: 1px solid gray; 
+} 
+
+#b6 { 
+	border-top: 1px solid gray; 
+	border-bottom: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b7 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+} 
+
+#b8 { 
+	border-top: 1px solid gray; 
+	border-right: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+
+#b9 { 
+	border-top: 1px solid gray; 
+	border-left: 1px solid gray; 
+} 
+/* Reset Button */
+#but { 
+	box-sizing: border-box;
+	box-shadow: 2px 2px 2px black; 
+	width: 95px; 
+	height: 40px; 
+	border: 1px solid black; 
+	margin-left: auto; 
+	border-radius: 10px; 
+	font-family: Verdana, 
+	Geneva, Tahoma, sans-serif; 
+	background-color: whitesmoke; 
+	color: black; 
+	font-size: 20px; 
+	cursor: pointer; 
+} 
+#but:hover{
+	background-color: yellow;
+}
+
+/* Player turn space */
+#print { 
+	font-family: Verdana, 
+		Geneva, Tahoma, sans-serif; 
+	color: black; 
+	font-size: 20px; 
+} 
+
