@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+	background-image: url(img/istockphoto-175400834-612x612.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
 h1 { 
 	color:  black;
 	margin-bottom: -5px;
@@ -21,14 +27,8 @@ p {
     font-size: 25px;
     letter-spacing: 5px;
 } 
-/* Main Container */
 #main { 
-	text-align: center; 
-    background-color: lightcyan;
-    height: 105vh;
-    background-image: url(img/istockphoto-175400834-612x612.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+	text-align: center;
 } 
 
 .ui { 
